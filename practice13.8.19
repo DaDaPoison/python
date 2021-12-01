@@ -1,5 +1,5 @@
 num_tickets = list(range(int(input("Сколько билетов Вы хотите купить?"))))
-age_tickets = [int(input(f"Какой возраст для билета №{num_tickets[i]+1}")) for i in range(len(num_tickets))]
+age_tickets = [int(input(f"Какой возраст посетителя для билета №{num_tickets[i]+1}")) for i in range(len(num_tickets))]
 price = []
 for i in age_tickets:
     if i<18:
