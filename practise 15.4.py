@@ -43,5 +43,5 @@ with open(nameFile, encoding='utf8') as f:
     fileText = f.read()
     
 fileText = changeText(fileText)
-print(f'Список самых частых слов длинной более трёх символов: {mostCommon(fileText, 3)}')
+print(f'Список самых частых слов длинной более трёх символов: {mostcommon_word(fileText, 3)}')
 print(f'Список самых длинных английских слов: {mostLenght(fileText)}')
